@@ -1,0 +1,28 @@
+body {
+  background-color: #e7e9eb;
+}
+
+.bg-dark {
+  background-color: #1d2d3c;
+  color: #f3f3f3;
+}
+
+.bg-dark img.img-as-circle {
+  border: 2px #f3f3f3 solid;
+}
+
+.bg-dark .title {
+}
+
+.bg-gray {
+  background-color: #f3f3f3;
+}
+
+.bg-gray .tag {
+  color: #1da1f2;
+}
+
+.bg-gray .title {
+  background-color: #1d2d3d;
+  color: #f3f3f3;
+}

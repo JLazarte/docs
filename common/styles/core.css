@@ -1,0 +1,98 @@
+.styles-reset body {
+  margin: auto;
+  font-family: sans-serif;
+  font-size: 0.9em;
+}
+
+.styles-reset p {
+  margin: 0;
+}
+
+.styles-reset a {
+  color: unset;
+  text-decoration: unset;
+}
+
+.styles-reset ul, .styles-reset ol {
+  padding-inline-start: 1.5em;
+}
+
+@media print {
+ .styles-reset body {
+   font-family: serif;
+ }
+}
+
+.padding-md {
+  padding: 0 15px;
+}
+
+.padding-md-right {
+  padding-right: 15px;
+}
+
+.img-as-circle {
+  height: auto;
+  border-radius: 50%;
+}
+
+.img-center {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-container-vertical{
+  display: flex;
+  width: initial;
+  flex-direction: column;
+}
+
+.flex-container-horizontal{
+  display: flex;
+  width: initial;
+  flex-direction: row;
+}
+
+.flex-vertical-center {
+  align-items:center;
+}
+
+.flex-container-vertical > .item, .flex-container-horizontal > .item {
+  flex: 1
+}
+
+body {
+  text-align: center;
+}
+
+.main-frame {
+  width: 800px;
+  height: 1130px;
+  display: inline-flex;
+  text-align: initial;
+}
+
+h1.title {
+  font-size: 1.2em;
+  padding: 0 1.3em;
+  width: fit-content;
+}
+
+h2.title {
+  font-size: 1.2em;
+  width: fit-content;
+}
+
+h3.title {
+  font-size: 1em;
+  width: fit-content;
+}
+
+.to-right {
+  float: right;
+}
+.to-left {
+  float: left;
+}
