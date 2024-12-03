@@ -1,6 +1,5 @@
 .styles-reset body {
   margin: auto;
-  font-family: sans-serif;
   font-size: 0.8em;
 }
 
@@ -25,8 +24,11 @@
  .styles-reset body {
    font-family: serif;
  }
-}
 
+  .main-frame {
+    margin: 0 !important;
+  }
+}
 .padding-md {
   padding: 0 15px;
 }
@@ -36,15 +38,8 @@
 }
 
 .img-as-circle {
-  height: auto;
+  width: 82px;
   border-radius: 50%;
-}
-
-.img-center {
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .flex-container-vertical{
@@ -57,6 +52,10 @@
   display: flex;
   width: initial;
   flex-direction: row;
+  justify-content: space-between;
+}
+p.flex-container-horizontal{
+  align-items: center;
 }
 
 .flex-vertical-center {
@@ -72,26 +71,60 @@ body {
 }
 
 .main-frame {
-  width: 800px;
-  height: 1130px;
+  width: 1000px;
+  height: 1414px;
+  overflow: hidden;
   display: inline-flex;
   text-align: initial;
+  margin-bottom: 14px;
 }
 
-h1.title {
-  font-size: 1.2em;
-  padding: 0 1.3em;
-  width: fit-content;
+
+.title {
+  font-size: 1.1em;
 }
 
-h2.title {
-  font-size: 1.2em;
-  width: fit-content;
+.main-content .title {
+  font-size: 1.3em;
 }
 
-h3.title {
-  font-size: 1em;
-  width: fit-content;
+.textDec 
+{
+  text-decoration:underline;
+}
+p, ul {
+  font-size: 17px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-block-end: .4em;
+}
+
+.skills-container h2 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.main-content > ul {
+  margin-block-start: .4em;
+  margin-block-end: .4em;
+}
+
+.main-content > ul > ul {
+  margin-block-end: .4em;
+}
+
+table {
+  width: 100%;
+}
+
+table tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.years {
+  width: 12px;
+  text-align: right;
 }
 
 .to-right {
@@ -99,4 +132,8 @@ h3.title {
 }
 .to-left {
   float: left;
+}
+.icono-redes{
+  font-size: 12px;
+  margin-right: 8px;
 }
