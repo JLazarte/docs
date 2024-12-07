@@ -7,6 +7,11 @@ body {
   
 }
 
+.bg-dark {
+  background-color: #1d2d3c;
+  color: #f3f3f3;
+}
+
 /*
 .bg-gray {
   background-color: #f3f3f3;
@@ -15,13 +20,34 @@ body {
 .bg-gray .tag {
   color: #1da1f2;
 }
-*/
+
 .bg-light .tag,
 .bg-gray .tag {
   color: #1da1f2;
- 
 }
+*/
+
+.bg-light .tag,
+.bg-gray .tag {
+  color: #0052a0;
+  font-weight: bolder;
+}
+
 .bg-light{
   background-color: #FAFAFA;
   border-right: solid rgb(230, 229, 229);
 }
+
+.old-page {
+  box-shadow: -12px -5px 30px 8px #47220045 inset;
+}
+
+/*
+
+@media print {
+  .old-page {
+    box-shadow: unset !important;
+  }
+}
+
+*/
