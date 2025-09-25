@@ -91,8 +91,16 @@ body {
 .main-content h2.title {
   font-size: 1.25rem;
   font-weight: normal;
-  margin-block-start: .6em;
+  margin-block-start: .2em;
+  padding-right: .25em;
+
+  display: inline-block;
 }
+
+.main-content h2.title + p {
+  display: inline;
+}
+
 
 .main-content {
   font-size: 1rem;
